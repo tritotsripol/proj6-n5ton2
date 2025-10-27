@@ -58,7 +58,7 @@ h1 {
   margin:25px;
 }
 body {
-  background-color: #363636 ;
+  background-color: #1d1d1d ;
   margin: 0;
 }
 .iframe {
@@ -117,8 +117,9 @@ body {
     padding-bottom: 0.5em;
     padding-left:10px;
     padding-right:10px;
-    border-radius: 25px;
-    background: linear-gradient(to bottom, #2d2d2d, #212121);
+    border-radius: 15px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, #00000080, #00000020);
   }
 
 /* buttons */
@@ -141,7 +142,7 @@ body {
   border-bottom-right-radius: 25px;
   border: solid 1px black;
   box-shadow:0 0 5px #67676780;
-  transition: background-color 1s ease, box-shadow 1s ease;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
 }
 .gotop:hover {
   background-color: black;
@@ -230,7 +231,7 @@ body::-webkit-scrollbar {
   height: 15px;
 }
 body::-webkit-scrollbar-thumb {
-  background: #67676780;
+  background: #676767;
   border-radius: 25px;
   width: 50%;
   height: 15px;
@@ -266,14 +267,15 @@ body::-webkit-scrollbar-thumb {
 
 /*lightth*/
 body.light .title-box {
-  background: linear-gradient(to bottom, white, #e8e8e8);
+  border: 1px solid white;
+  background: linear-gradient(to bottom, #ffffff80, #ffffff20);
   color: #363636;
 }
 body.light::-webkit-scrollbar {
   background: rgba(255,255,255, 0.5);
 }
 body.light::-webkit-scrollbar-thumb {
-  background: #67676780;
+  background: #363636;
 }
 
 body.light .gotop, body.light .themebtn {
